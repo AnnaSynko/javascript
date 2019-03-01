@@ -10,7 +10,7 @@ const D = calcDiscriminant(a, b, c);
 alert('D ='+D);
 
 function solve(a, b, c) {
-    let discrim = calcDiscriminant(a, b, c);
+    const discrim = calcDiscriminant(a, b, c);
     if (discrim > 0) {
         let x1 = (-b + Math.sqrt(discrim)) / (2 * a);
         let x2 = (-b - Math.sqrt(discrim)) / (2 * a);
